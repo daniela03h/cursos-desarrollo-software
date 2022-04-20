@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: aqua;
+  height: 60px;
+  position: relative;
+}
+
+figure {
+  display: inline-block;
+  padding-left: 8px;
+}
+
+nav {
+  display: inline-block;
+  position: absolute;
+  right: 8px;
+}
+
+nav li { 
+display: inline-block;
+}
+
+main {
+min-height: calc(100vh - 100px);
+width: 100%;
+position: relative;
+}
+
+aside {
+background-color: salmon;
+width: 200px;
+height: calc(100vh - 100px);
+padding-top: 5px;
+}
+
+aside article {
+  width: 180px;
+  height: 100px;
+  background-color: bisque;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+section {
+height: calc(100vh - 100px);
+width: calc(100% -  200px);
+position: absolute;
+top: 0;
+left: 200px;
+}
+
+footer {
+background-color: aqua;
+height: 40px;
+position: relative;
+padding-left: 8px;
+}
+
+footer div {
+  display: inline-block;
+}
+
+.info-basica {
+  position: absolute;
+  right: 8px;
+}

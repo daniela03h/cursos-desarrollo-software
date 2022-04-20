@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+}
+.parent {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.box {
+  border: 1px solid gray;
+  border-radius: 10px;
+  text-align: center;
+}
+#one {
+  width: 20%;
+  background-color: blueviolet;
+  position: relative;
+  z-index: 1;
+}
+#two {
+  width: 50%;
+  background-color: aqua;
+  min-height: 100px;
+  position: absolute;
+  top: 20px;
+  padding-top: 20px;
+}
