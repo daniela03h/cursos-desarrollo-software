@@ -4,7 +4,7 @@ console.log(frutas);
 
 console.log(frutas.length); /*Me dice cuantos elementos tiene el array*/
 
-console.log(frutas[0]); /*Me llama el que yo quiero*/
+console.log(frutas[0]); /*Acede a un elemnto en la posicion que yo quiero*/
 
 var masFrutas = frutas.push("Uvas"); /*Mutar los que no quiero*/
 
